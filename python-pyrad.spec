@@ -1,5 +1,4 @@
 
-%include	/usr/lib/rpm/macros.python
 %define 	module	pyrad
 
 Summary:	pyrad - Python implementation of a RADIUS client
