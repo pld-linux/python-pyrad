@@ -11,7 +11,7 @@ Group:		Libraries/Python
 Source0:	http://www.wiggy.net/files/%{module}-%{version}.tar.gz
 # Source0-md5:	562ddc819d5f6b9d6e1458483e8bbd26
 URL:		http://www.wiggy.net/code/pyrad/
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
