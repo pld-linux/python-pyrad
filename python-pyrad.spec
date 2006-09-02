@@ -56,7 +56,7 @@ python setup.py install \
 
 find $RPM_BUILD_ROOT%{py_sitescriptdir} -name \*.py -exec rm {} \;
 
-cp -ar example/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -a example/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
