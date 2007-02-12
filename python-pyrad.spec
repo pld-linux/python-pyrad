@@ -2,7 +2,7 @@
 %define 	module	pyrad
 
 Summary:	pyrad - Python implementation of a RADIUS client
-Summary(pl):	pyrad - implementacja klienta RADIUS w Pythonie
+Summary(pl.UTF-8):   pyrad - implementacja klienta RADIUS w Pythonie
 Name:		python-%{module}
 Version:	0.8
 Release:	2
@@ -21,23 +21,23 @@ pyrad is an implementation of a RADIUS client as described in RFC2865.
 It takes care of all the details like building RADIUS packets, sending
 them and decoding responses.
 
-%description -l pl
-pyrad jest implementacj± klienta protoko≥u RADIUS, opisanego w
-dokumencie RFC2865. Modu≥ ten odpowiada za wszystkie aspekty
-przetwarzania protoko≥u RADIUS, takie jak budowanie pakietÛw
-protoko≥u, wysy≥anie ich oraz odkodowywanie odpowiedzi.
+%description -l pl.UTF-8
+pyrad jest implementacjƒÖ klienta protoko≈Çu RADIUS, opisanego w
+dokumencie RFC2865. Modu≈Ç ten odpowiada za wszystkie aspekty
+przetwarzania protoko≈Çu RADIUS, takie jak budowanie pakiet√≥w
+protoko≈Çu, wysy≈Çanie ich oraz odkodowywanie odpowiedzi.
 
 %package examples
 Summary:	Example programs for Python pyrad module
-Summary(pl):	Programy przyk≥adowe do modu≥u Pythona pyrad
+Summary(pl.UTF-8):   Programy przyk≈Çadowe do modu≈Çu Pythona pyrad
 Group:		Development/Languages/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description examples
 This package contains example programs for Python pyrad module.
 
-%description examples -l pl
-Pakiet zawieraj±cy programy przyk≥adowe dla modu≥u Pythona pyrad.
+%description examples -l pl.UTF-8
+Pakiet zawierajƒÖcy programy przyk≈Çadowe dla modu≈Çu Pythona pyrad.
 
 %prep
 %setup -q -n %{module}-%{version}
