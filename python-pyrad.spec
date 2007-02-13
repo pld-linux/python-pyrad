@@ -2,7 +2,7 @@
 %define 	module	pyrad
 
 Summary:	pyrad - Python implementation of a RADIUS client
-Summary(pl.UTF-8):   pyrad - implementacja klienta RADIUS w Pythonie
+Summary(pl.UTF-8):	pyrad - implementacja klienta RADIUS w Pythonie
 Name:		python-%{module}
 Version:	0.8
 Release:	2
@@ -29,7 +29,7 @@ protokołu, wysyłanie ich oraz odkodowywanie odpowiedzi.
 
 %package examples
 Summary:	Example programs for Python pyrad module
-Summary(pl.UTF-8):   Programy przykładowe do modułu Pythona pyrad
+Summary(pl.UTF-8):	Programy przykładowe do modułu Pythona pyrad
 Group:		Development/Languages/Python
 Requires:	%{name} = %{version}-%{release}
 
