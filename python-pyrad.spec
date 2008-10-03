@@ -5,7 +5,7 @@ Summary:	pyrad - Python implementation of a RADIUS client
 Summary(pl.UTF-8):	pyrad - implementacja klienta RADIUS w Pythonie
 Name:		python-%{module}
 Version:	0.9
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Libraries/Python
 Source0:	http://www.wiggy.net/files/%{module}-%{version}.tar.gz
