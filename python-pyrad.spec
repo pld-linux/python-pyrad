@@ -12,6 +12,9 @@ Source0:	http://pypi.python.org/packages/source/p/pyrad/%{module}-%{version}.tar
 # Source0-md5:	ab1502f8ccd7409ced757d78b0dee7df
 URL:		http://www.wiggy.net/code/pyrad/
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	python-setuptools
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-libs
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildArch:	noarch
